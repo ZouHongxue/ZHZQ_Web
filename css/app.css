@@ -1,0 +1,153 @@
+.content{
+    width: 1150px;
+    margin: 0 auto;
+    padding-bottom: 60px;
+}
+.cd1{
+    width: 100%;
+    height: 460px;
+    background-image: url("../img/bg_01.jpg");
+    background-size: 100%;
+    background-repeat: no-repeat;
+    position: relative;
+}
+.cd11{
+    width: 220px;
+    height: 410px;
+    background-repeat: no-repeat;
+    background-image: url("../img/mb_01.png");
+    background-size: 100%;
+    margin-top: 20px;
+    margin-left: 220px;
+    float: left;
+    animation: cd11 2s ease;
+}
+@keyframes cd11 {
+    from{position: absolute;top: 0px;left: -220px;opacity: 0;}
+    to{position: absolute;top: 0px;left:0px;opacity:1;}
+}
+@keyframes cd12 {
+    from{position: relative;top: 20px;left: 0px;opacity: 0; background-image: url("../img/mb_02.png");
+        margin-top: 20px;
+        margin-left: -100px;}
+    to{position: relative;top: 0px;left:0px;opacity:1; background-image: url("../img/mb_02.png");
+        margin-top: 20px;
+        margin-left: -100px;}
+}
+.cd12{
+    margin-top: 20px;
+    margin-left: -100px;
+    width: 220px;
+    height: 430px;
+    background-repeat: no-repeat;
+    background-size: 100%;
+    float: left;
+    animation: cd12 2s ease 2s forwards;
+}
+@keyframes cd13 {
+    from{position: absolute;right: -50px;opacity: 0;}
+    to{position: absolute;right: 30px;opacity:1;}
+}
+.cd13{
+    opacity: 0;
+    width: 430px;
+    height: 330px;
+    margin-top:80px;
+    margin-right: 100px;
+    float: right;
+    animation: cd13 2s ease 2s forwards;
+}
+.cd132{
+    width: 100%;
+    height:185px ;
+    margin-top:30px;
+}
+.cd1321{
+    width: 60%;
+    height: 100%;
+    float: left;
+}
+.cd1321 div:nth-child(1){
+    height: 40%;
+    width: 100%;
+    background-image: url("../img/ip_btn.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.cd1321 div:nth-child(2){
+    margin-top: 20px;
+    height: 40%;
+    width: 100%;
+    background-image: url("../img/an_btn.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+}
+.cd1322{
+    float: right;
+    width: 35%;
+    height: 100%;
+    background-image: url("../img/app_ewm.gif");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-left: 10px;
+}
+
+.cd2{
+    width: 100%;
+    height: 560px;
+    position: relative;
+}
+@keyframes cd21 {
+    from{position: absolute;left: -50px;opacity: 0;}
+    to{position: absolute;left:0px;opacity:1;}
+}
+.cd21{
+    width: 40%;
+    height: 100%;
+    text-align: left;
+    padding-top: 130px;
+    padding-left: 60px;
+    float: left;
+    animation: cd21 2s ease 4s forwards ;
+    opacity: 0;
+}
+.cd21 h1{
+    color: red;
+}
+.cd21 p{
+    color: gainsboro;
+    font-size: 20px;
+}
+@keyframes cd22 {
+    from{position: absolute;top: -50px;right:15px; opacity: 0;}
+    to{position: absolute;top: 30px;right:15px; opacity: 1;}
+}
+.cd22{
+    width: 55%;
+    height: 100%;
+    float: left;
+    margin-left: 60px;
+    margin-right: -10px;
+    opacity:0;
+    animation: cd22 2s ease 5s forwards;
+}
+.cd22 div:nth-child(1){
+    height: 415px;
+    width: 100%;
+    background-image: url("../img/s2_img01.jpg");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top:100px ;
+    z-index: 1;
+}
+.cd22 div:nth-child(2){
+    margin-left: 50px;
+    float: left;
+    width: 60%;
+    height:200px;
+    background-image: url("../img/s2_img02.png");
+    background-repeat: no-repeat;
+    background-size: 100%;
+    margin-top: -500px;
+    z-index: 2;
+}

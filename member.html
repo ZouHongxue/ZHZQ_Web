@@ -1,0 +1,217 @@
+<!DOCTYPE html>
+<html>
+<head lang="en">
+    <meta charset="UTF-8">
+    <title></title>
+    <link rel="stylesheet" href="../css/bootstrap.min.css"/>
+    <link rel="stylesheet" href="css/common.css">
+    <script src="../js/jquery-2.1.1.min.js"></script>
+    <script rel="script" src="../js/bootstrap.min.js"></script>
+    <style>
+        .content{
+            height: 590px;
+            width: 100%;
+            background-image: url("img/login_bg.jpg");
+            position: relative;
+        }
+        .cd1{
+            width: 445px;
+            height: 400px;
+            border: 1px solid white;
+            position: absolute;
+            top: 50%;
+            left: 50%;
+            margin-left: -222.5px;
+            margin-top: -200px;
+            padding: 40px 40px;
+            color: black;
+            background-color: rgba(255,255,255,.60)
+        }
+        .cd1 h3{
+            color: red;
+            font-weight: bold;
+        }
+        .cf1{
+            width: 330px;
+            height: 270px;
+            margin: 0 auto;
+        }
+        .cf1 input[type=text]{
+            width: 100%;
+            height: 35px;
+        }
+        .cf1 div:nth-child(3) input{
+            background: #FFFFFF url("img/login_02.gif") left no-repeat;
+            text-indent: 40px;
+        }
+        .cf1 div:nth-child(1) input{
+            background: #FFFFFF url("img/login_01.gif") left no-repeat;
+            text-indent: 40px;
+        }
+        .cf1 div{
+            margin-top: 20px;
+        }
+        .cf1 input[type=button]{
+            width: 100%;
+            height: 55px;
+            background-color: red;
+            font-size: 22px;
+            color: white;
+            border: none;
+            font-weight: bold;
+        }
+    </style>
+</head>
+<body>
+<!--头部-->
+    <div class="header">
+    <!--提示栏-->
+    <div class="header-bar">
+        <div class="l">您好，欢迎来到智慧重汽！     <a><span>【登录】</span></a>  <a>注册</a></div>
+        <div class="r">
+            <ul class="u1">
+                <li><a>智慧重汽首页</a></li>
+                <li>丨</li>
+                <li><a>我的订单</a></li>
+                <li>丨</li>
+                <li><a>我的车辆</a></li>
+                <li>丨</li>
+                <li><a>我的收藏</a></li>
+                <li>丨</li>
+                <li><a>网站地图</a></li>
+            </ul>
+        </div>
+    </div>
+    <!--导航栏-->
+    <div  class="header-content">
+        <!-- 顶部-->
+        <div class="d1">
+            <div class="l d1l"><img src="img/20151217085712_73.png"></div>
+            <div class="l d1r">
+                <div>
+                    <input type="text" style="width:350px;height:30px;border: 1px solid red;margin: 0;padding: 0;outline: none"
+                           placeholder="配件名称、图号">
+                    <input type="button"style="width: 50px;height:30px;margin: 0;padding: 0;background-color: red;color: white;
+                        border: 1px solid red" value="搜索"><input type="button" align="right" style="width: 70px;height: 30px;margin-left: 50px;
+                        padding: 0;background-color: orange;border: 0;color: white;"value="购物车0">
+                </div>
+                <div>热门搜索： <a>暖风机</a>  <a>防冻液</a>  <a>离合器</a>  <a>主轴</a></div>
+            </div>
+        </div>
+        <!-- 底部-->
+        <div class="hd2">
+            <ul class="u2">
+                <li>产品分类</li>
+                <li><a href="index.html">首页</a></li>
+                <li><a href="part.html">亲人配件</a></li>
+                <li><a href="service.html">亲人服务</a></li>
+                <li style="position: relative">
+                    <a href="machine.html">整车家族</a>
+                    <i style="position: absolute;top: -20px;left: 90px"><img src="img/hot.png"></i>
+                </li>
+                <li style="position: relative">
+                    <a href="member.html">配件防伪</a>
+                    <i style="position: absolute;top: -20px;left: 100px"><img src="img/hot.png"></i>
+                </li>
+                <li><a href="member.html">智能通</a></li>
+                <li><a href="app.html">APP下载</a></li>
+            </ul>
+        </div>
+    </div>
+</div>
+<!--content -->
+    <div class="content">
+        <div class="cd1">
+            <h3>欢迎您的访问，请登录！</h3>
+            <form class="cf1">
+                <div> <input type="text" placeholder="请输入手机号码"/></div>
+                <div>登录模式：<input type="radio"checked>账号密码<input type="radio">短信码</div>
+                <div><input type="text" placeholder="请输入密码"></div>
+                <div style="text-align: right"><span>忘记密码|免费注册</span></div>
+                <div><input type="button" value="登录"></div>
+            </form>
+        </div>
+    </div>
+<!--底部-->
+    <div class="footer" style="margin-top: 0px">
+    <!-- 上半部分-->
+    <div class="footer-bar">
+        <span><div></div>官方正品 放心选购</span>
+        <span><div></div>价格透明 用心服务</span>
+        <span><div></div>急速物流 及时送达</span>
+        <span><div></div>智能搜索 准确适配</span>
+    </div>
+    <!-- 下半部分-->
+    <div class="footer-bottom" >
+        <div class="fb">
+            <ul class="u4">
+                <li><a>新手入门</a></li>
+                <li><a>新手入门</a></li>
+                <li><a>新手入门</a></li>
+                <li><a>新手入门</a></li>
+                <li><a>新手入门</a></li>
+            </ul>
+            <ul class="u4">
+                <li><a>新手入门</a></li>
+                <li><a>新手入门</a></li>
+                <li><a>新手入门</a></li>
+                <li><a>新手入门</a></li>
+                <li><a>新手入门</a></li>
+            </ul>
+            <ul class="u4">
+                <li><a>新手入门</a></li>
+                <li><a>新手入门</a></li>
+                <li><a>新手入门</a></li>
+                <li><a>新手入门</a></li>
+                <li><a>新手入门</a></li>
+            </ul>
+            <ul class="u4">
+                <li><a>新手入门</a></li>
+                <li><a>新手入门</a></li>
+                <li><a>新手入门</a></li>
+                <li><a>新手入门</a></li>
+                <li><a>新手入门</a></li>
+            </ul>
+            <ul class="u4">
+                <li><a>新手入门</a></li>
+                <li><a>新手入门</a></li>
+                <li><a>新手入门</a></li>
+                <li><a>新手入门</a></li>
+                <li><a>新手入门</a></li>
+            </ul>
+            <ul class="u4">
+                <li><a>新手入门</a></li>
+                <li><a>新手入门</a></li>
+                <li><a>新手入门</a></li>
+                <li><a>新手入门</a></li>
+                <li><a>新手入门</a></li>
+            </ul>
+            <div class="fbr">
+                <div>
+                    <span>7×24小时客户服务中心</span>
+                    <span>4001-888-666</span>
+                </div>
+                <div>
+                    <img src="img/20151202173651_582.jpg">
+                    APP下载
+                </div>
+            </div>
+        </div>
+    </div>
+    <div class="footer-info">©2016 中国重汽集团济南地球村电子商务有限公司 版权所有 鲁ICP备16011179号</div>
+
+</div>
+<!--侧边栏-->
+    <div class="slide">
+    <ul class="u3">
+        <li><div></div>购物车<i style="height: 20px;width:20px;background-color: red;
+            display: block;position: absolute;top: -10px;right: 0px;border-radius: 15px;line-height: 20px;color: white;border: 1px solid white">0</i></li>
+        <li><div></div>一键<br/>报修</li>
+        <li><div></div>预约<br/>服务</li>
+        <li><div></div>意见<br/>反馈</li>
+        <li><div></div>客服</li>
+        <a href="#top"><li></li></a>
+    </ul>
+</div>
+</body>
+</html>
